@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+<style>
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;  
+}
+  .nav{
+    overflow:hidden;
+    background-color:rgb(0, 0, 0);
+    position:fixed;
+    width:100%
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 22px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+    width:16.66%;
+
+}
+.nav a:hover {
+    background-color: #407eb8;
+    color: white;
+}
+div.bg-img {
+  background-image:url("https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg");
+  min-height: 380px;
+  }
+  h1 {
+      color:red;
+	  }
+p{
+  color:yellow;
+  }
+ .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+/* footer */
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footer-container{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.footer-container p, .footer-container a, .footer-container span{
+    opacity: 0.5;
+}
+.footer a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contact-item span{
+    display: block;
+}
+@media(min-width: 900px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media(min-width: 1170px){
+    .footer{
+        text-align: left;
+    }
+    .footer-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+</style>
+<body>
+  <div class="nav">
+    <a class="active" href="E:\python\ssr hotel .html"> Home </a>
+    <a href="#"> Our Services </a>
+    <a href="packages.html"> Packages </a> 
+    <a href="galary.html"> Gallery </a>
+    <a href="uscontact.html"> Contact Us </a>
+    <a href="about us.html"> About Us </a>
+</div>
+
+<div class="bg-img">
+    <br>
+<br>
+<br>
+<br>
+<u><h1 align="center">Hotel Reservation</u></h1>
+<br>
+<div class="form-field">
+<p align="center"> Your Name </p>
+<br>
+<center><input type="text"	placeholder="Your Name">
+</div>
+<br>
+<div class="form-field">
+<p align="center">Email</p>
+<br>
+<center><input type="email" id="email" name="email" placeholder="Email"/>
+</div>
+<br>
+<div class="form-field">
+<p align="center"> Mobile No. </p>
+<br>
+
+<center><input type="number" name="number" id="number" size="20" placeholder="MobileNo." max width="10">
+</div>
+<br>
+<div class="form-field">
+<p align="center"> Arrival Date </p>
+<center><input type="date">
+</div>
+<br>
+<div class="form-field">
+<p align="center"> Departure Date </p>
+<center><input type="date">
+</div>
+<br>
+<div class="form-field">
+<p align="center">Number of adults</p>
+<center><input type="number of adults">
+</div>
+<br>
+<div class="form-field">
+<p align="center">Number of children</p>
+<center><input type="number of adults">
+</div>
+<br>
+
+<div class="form-field">
+<p align="center">How many people?</p>
+<center><select name="select" id="#">
+<option value="1">1 person</option>
+<option value="2">2 persons</option>
+<option value="3">3 persosn</option>
+<option value="4">4 persons</option>
+<option value="5">5 persons</option>
+<option value="5+">5+ persons</option>
+</select>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+<button class="btn">Submit</button>
+</form>
+<!-- footer -->
+<footer class = "footer">
+  <div class = "footer-container">
+      <div>
+          <h2>About Us </h2>
+          <p>Mobile:+91-8757130295<br>
+          Email:<a href="#">hotelsunflowerinn@gmail.com</a>
+          </p>
+          <ul class = "social-icons">
+              
+          </ul>
+      </div>
+
+      <div>
+          <h2>Useful Links</h2>
+          <a href = "E:\python\galary.html">Gallery</a>
+                
+                    <a href = "E:\python\subscription.html">Subscription</a>
+                    <a href = "#">Gift Card</a>
+      </div>
+
+      <div>
+          <h2>Privacy</h2>
+          <a href = "E:\python\about us.html">About Us</a>
+                    <a href = "E:\python\uscontact.html">Contact Us</a>
+                    <a href="E:\python\hotel privacy.html"> Our Privacy</a>
+      </div>
+
+      <div>
+          <h2>Have A Question</h2>
+          <div class = "contact-item">
+              <span>
+                  <i class = "fas fa-map-marker-alt"></i>
+              </span>
+              <span>
+                  You can contact us 
+              </span>
+          </div>
+          <div class = "contact-item">
+              <span>
+                  +91-8757130295
+              </span>
+          </div>
+          <div class = "contact-item">
+              <span>
+           
+              </span>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</head>
+</html>

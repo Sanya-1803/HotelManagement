@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+     <script src="https://kit.fontawesome.com/85d9a24708.js" crossorigin="anonymous"> </script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <style>
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+.nav{
+    overflow:hidden;
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    width:100%
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 22px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+    width:16.66%;
+
+}
+.nav a:hover {
+    background-color: #407eb8;
+    color: white;
+}
+	     .container{
+		     display:flex;
+			 flex-direction:column;
+			 border-radius:25px;
+			 width:auto;
+			 background-color:#cfd8dc;
+			 padding:10px;
+			 margin:50px;
+		 }
+		 .main{
+		     display:flex;
+			 flex-direction:column;
+			 border-radius:25px;
+			 width:auto;
+			 background-color:#455a64;
+			 padding:20px;
+			 margin:50px;
+		 }
+		 h1{
+		     font-family:garamond;
+			 color:#455a64;
+		 }
+		 h3{
+		     font-family:garamond;
+		 }	 
+		 p{
+		     font-family:garamond;
+			 font-size:25px;
+			 color:ivory;
+		 }
+		 		  /* footer */
+ .footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footer-container{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.footer-container p, .footer-container a, .footer-container span{
+    opacity: 0.5;
+}
+.footer a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contact-item span{
+    display: block;
+}
+@media(min-width: 900px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media(min-width: 1170px){
+    .footer{
+        text-align: left;
+    }
+    .footer-container{
+        grid-template-columns: repeat(4, 1fr);
+    }	 
+	 </style>
+</head>
+<body>
+	<div class="nav">
+        <a class="active" href="E:\python\ssr hotel .html"> Home </a>
+        <a href="#"> Our Services </a>
+        <a href="E:\python\packages.html"> Packages </a> 
+        <a href="E:\python\galary.html"> Gallery </a>
+        <a href="#"> Contact Us </a>
+        <a href="E:\python\about us.html"> About Us </a>
+   </div>
+   <br>
+   <br>
+   <br>
+
+     <div class="container" align="center">
+		     <i class="fas fa-check-circle" style="font-size:60px; color:#8bc34a; padding:15px;"></i>
+		     <h1> Thank You For Signing Up! </h1>
+			 <h3> <q lang="en"> Welcome To Our Community </q> </h3>
+	 </div>
+	 <div class="main" align="center">
+		 <p> Thank you for choosing Sunflower Inn and becoming a part of our community.</p>
+		 <p> We are delighted to have you and we are committed to provide with the most comfortable stays & exciting experiences.</p>
+		 <p> We hope to see you soon. </p>
+		 <p> <q lang="en"> Stay Safe & Healthy </q> </p>
+	 </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+	 <!-- footer -->
+ <footer class = "footer">
+    <div class = "footer-container">
+        <div>
+            <h2>About Us </h2>
+            <p>Mobile:+91-8757130295<br>
+            Email:<a href="#">hotelsunflowerinn@gmail.com</a>
+            </p>
+            <ul class = "social-icons">
+                
+            </ul>
+        </div>
+
+        <div>
+            <h2>Useful Links</h2>
+            <a href = "E:\python\galary.html">Gallery</a>
+                
+                <a href = "E:\python\subscription.html">Subscription</a>
+                <a href = "#">Gift Card</a>
+        </div>
+
+        <div>
+            <h2>Privacy</h2>
+            <a href = "E:\python\about us.html">About Us</a>
+                    <a href = "E:\python\uscontact.html">Contact Us</a>
+                    <a href="E:\python\hotel privacy.html"> Our Privacy</a>
+        </div>
+
+        <div>
+            <h2>Have A Question</h2>
+            <div class = "contact-item">
+                <span>
+                    <i class = "fas fa-map-marker-alt"></i>
+                </span>
+                <span>
+                    You can contact us 
+                </span>
+            </div>
+            <div class = "contact-item">
+                <span>
+                    +91-8757130295
+                </span>
+            </div>
+            <div class = "contact-item">
+                <span>
+             
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

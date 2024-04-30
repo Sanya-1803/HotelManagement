@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+    background-image: url("https://wallpaperaccess.com/download/contact-us-2489680");
+}
+p{
+    font-size: 20px; 
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+.nav{
+    overflow:hidden;
+    background-color:rgb(0, 0, 0);
+    position:fixed;
+    width:100%
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 22px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+    width:16.66%;
+
+}
+.nav a:hover {
+    background-color: #407eb8;
+    color: white;
+}
+.contact-form{
+	position:relative;
+	padding-bottom:30px;
+}
+.contact-form div{
+	padding:5px 0;
+}
+.contact-form span{
+	display:block;
+	font-size:1em;
+	color: #454545;
+	padding-bottom:5px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+/* footer */
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footer-container{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.footer-container p, .footer-container a, .footer-container span{
+    opacity: 0.5;
+}
+.footer a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contact-item span{
+    display: block;
+}
+@media(min-width: 900px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media(min-width: 1170px){
+    .footer{
+        text-align: left;
+    }
+    .footer-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+</style>
+</head>
+
+<body>
+    <div class="nav">
+        <a class="active" href="E:\python\ssr hotel .html"> Home </a>
+        <a href="#"> Our Services </a>
+        <a href="packages.html"> Packages </a> 
+        <a href="galary.html"> Gallery </a>
+        <a href="uscontact.html"> Contact Us </a>
+        <a href="about us.html"> About Us </a>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+    <h1> Contact Us</h1>
+    <div class="company_address">
+        <h3>Sun Flower Inn:</h3>
+               <p>address,</p>
+                  <p>Steet 20-A,</p>
+                  <p>Nar Solang Vally </p>
+          <p>Phone:(06112)875713 </p>
+          <p>Fax: (000) 00000000</p>
+         <p>Email: <span>sunflowerinn.com</span></p>
+          <p>Follow us on: <span>Facebook</span>, <span>Twitter</span></p>
+      
+  </div>			
+<div class="col span_2_of_3">
+ <div class="contact-form">
+     <h3>Contact Us</h3>
+       <form method="post" action="contact-post.html">
+           <div>
+               <span><label>FULL NAME</label></span>
+               <span><input type="text" class="textbox"></span>
+           </div>
+           <div>
+               <span><label>E-MAIL ID</label></span>
+               <span><input  type="text" class="textbox"></span>
+           </div>
+           <div>
+                <span><label>MOBILE NUMBER</label></span>
+               <span><input  type="text" class="textbox"></span>
+           </div>
+           <div>
+               <span><label>SUBJECT</label></span>
+               <span><textarea> </textarea></span>
+           </div>
+          <div>
+                  <span><input type="submit" value="Submit"></span>
+         </div>
+       </form>
+
+   </div>
+ </div>				
+</div>
+</div>
+<div class="box center-box">
+   <ul>
+       <li><a href="#">Leave a Feedback</a></li>
+       <li><a href="#">Reviews and Ratings</a></li>
+       <li><a href="#">FAQs</a></li>
+       <li><a href="#">Packages</a></li>
+      
+   </ul>
+</div>
+<div class="copy-tight">
+<p>&copy HOTEL SUNFLOWER INN</p>
+</div>
+ <!-- footer -->
+ <footer class = "footer">
+    <div class = "footer-container">
+        <div>
+            <h2>About Us </h2>
+            <p>Mobile:+91-8757130295<br>
+            Email:<a href="#">hotelsunflowerinn@gmail.com</a>
+            </p>
+            <ul class = "social-icons">
+                
+            </ul>
+        </div>
+
+        <div>
+            <h2>Useful Links</h2>
+            <a href = "E:\python\galary.html">Gallery</a>
+                
+                <a href = "E:\python\subscription.html">Subscription</a>
+                <a href = "#">Gift Card</a>
+        </div>
+
+        <div>
+            <h2>Privacy</h2>
+            <a href = "E:\python\about us.html">About Us</a>
+                    <a href = "E:\python\uscontact.html">Contact Us</a>
+                    <a href="E:\python\hotel privacy.html"> Our Privacy</a>
+        </div>
+
+        <div>
+            <h2>Have A Question</h2>
+            <div class = "contact-item">
+                <span>
+                    <i class = "fas fa-map-marker-alt"></i>
+                </span>
+                <span>
+                    You can contact us 
+                </span>
+            </div>
+            <div class = "contact-item">
+                <span>
+                    +91-8757130295
+                </span>
+            </div>
+            <div class = "contact-item">
+                <span>
+             
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
